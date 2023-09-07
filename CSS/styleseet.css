@@ -1,0 +1,1505 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-image: url(../Image/S-1/hedaer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.wrapper{
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-row{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+.header-row .logo{
+    width: 30%;
+    text-align: start;
+}
+.logo img{
+    width: 270px;
+}
+.menu{
+    width: 70%;
+    text-align: end;
+}
+.heding a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 2px;
+    top: -5px;
+    color: #3d2514;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.heding img{
+    width: 30px;
+}
+.menu-icon{
+    display: none;
+    margin-top: 10px;
+}
+.menu-slid img{
+    width: 45px;
+    height: 45px;
+}
+.cross-menu img{
+    width: 45px;
+    height: 45px;   
+}
+.cross-menu{
+    display: none;
+}
+.menu ul{
+    margin-top: 25px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3d2514;
+    font-size:21px;
+    font-weight:400;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height:100% ;
+}
+.menu a:hover {
+    color: #bf2222;
+}
+.hero{
+    width: 100%;
+}
+.hero-row{
+    width: 100%;
+    display: flex;
+    padding-bottom: 75px;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.hero-conteain{
+    width: 42%;
+    padding-top: 80px;
+}
+
+.hero-heding p{
+    max-width: 390px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #3d2514;
+    line-height: 33px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+
+}    
+.hero-heding {
+    box-sizing: border-box;
+    text-align: center;
+    width: 380px;
+    padding: 5px 10px 0px 10px;
+    border: 3px dashed #3d2514;
+}
+.hero-titel h1{
+    font-size:114px ;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 4px 5px 0px rgba(254, 232, 188, 1);
+}
+.hero-sub-titel h2{
+    font-size:56px ;
+    font-weight: 400;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 4px 5px 0px rgba(254, 232, 188, 1);
+}
+.hero-img{
+    width: 56%;
+    text-align: left;
+
+}
+.price{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background-color: #bf2222;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    bottom: 8px;
+    left: 45px;
+    position: absolute;
+}
+.price h5{
+    font-size: 70px;
+    line-height: 30px;
+    margin-top:40px;
+}
+.price h5 span{
+    font-size: 30px;
+}
+.price h6{
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+.in-price{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border: 2px dashed #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.combo-img{
+    width: 680px;
+    height: 530px;
+    position: relative;
+}
+.combo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.popular{
+    width: 100%;
+}
+.popular .wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.popular-row{
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.most-popular{
+    width: 48%;
+    background-image:url(../Image/S-2/Burger\ Image1.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 330px;
+}
+.sub-title p{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.most-popular .title h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.morefun-chili{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.morefun{
+    width: 100%;
+    background-image: url(../Image/S-2/fresh.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 65px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.morefun .title{
+    width: 160px;
+    margin-top: 10px;
+}
+.morefun .title h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.fresh-chili{
+    width: 100%;
+    background-image: url(../Image/S-2/chili.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-bottom: 96px;
+}
+.fresh-chili H2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.choose-enjoy{
+    width: 100%;
+}
+.choose-enjoy-row{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.choose-title{
+    width: 100%;
+    text-align: center;
+}
+.choose-title a{
+    text-decoration: none;
+    color:#3d2514;
+    font-size: 25px;
+    font-weight: 700;line-height: 38px;
+    background-color: #ffc045;
+    padding: 12px 20px 8px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.choose-enjoy-row .sub-title{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+.choose-enjoy-row .sub-title h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #3d2514;
+    line-height: 38px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.choose-enjoy-contain{
+    max-width: 1061px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.choose-enjoy-contain p{
+    font-size: 17px;
+    line-height: 29px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.order-blog{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-blog-box{
+    max-width: 27%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+
+}
+.order-img{
+    width: 100%;
+}
+.order-img img{
+    width: 100%;
+    height: 265px;
+    object-fit: contain;
+}
+.order-title h3{
+    margin-top: 10px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.order-contain{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.order-contain p{
+    font-size: 15px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.order-button{
+
+    position: absolute;
+    bottom: -65px;
+    left: 80px;
+    text-align: center;
+}
+.order-button a{
+    font-size: 17px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    padding: 11px 30px;
+}
+.order-button a:hover{
+    color: #ffffff;
+    background-color: #3d2514;
+
+}
+.upcoming-events{
+    width: 100%;
+    margin-top:120px;
+}
+.upcoming-events-row{
+    max-width: 1294px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 19px 25px 43px 0px rgba(0, 0, 0, 0.17);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.upcoming-events-containt{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.upcoming-events-containt .title h4{
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #3d3d3d;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.upcoming-events-containt .sub-title h2{
+    font-size: 42px;
+    line-height: 46px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+}
+.events-p{
+    max-width: 530px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.events-p p{
+    font-size: 21px;
+    line-height: 33px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.upcoming-events-img{
+    background-image: url(../Image/S-2/Food\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 660px;
+    height: auto;
+}
+.book-table{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    overflow-x: hidden;
+    position: relative;
+}
+.book-table .wrapper{
+    max-width: 820px;
+    margin: 0 auto;
+}
+.book-table-row{
+    width: 100%;
+    text-align: center;
+}
+.book-table-row .title h3{
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.book-table-row .sub-title h2{
+    font-size: 50px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+}
+.resevation-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.colum-1, .colum-2{
+    max-width: 46%;
+    margin: 0 auto;
+}
+.colum-1 input{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 21px;
+    line-height: 46px;
+    color: #3d3d3d;
+    font-weight: 400;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgba(235,174,76,0);
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+.colum-2 input{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 21px;
+    line-height: 46px;
+    color: #3d3d3d;
+    font-weight: 400;
+    padding: 0 10px;
+    outline:0;
+    border-radius: 5px;
+    background-color: rgba(235,174,76,0);
+    border: 1px solid #bebebe;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.colum-2 input[type="submit"]{
+    width: 358.19px;
+    background-color: #bf2222;
+    font-family: 'Alfa Slab One', cursive;
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+    border: 0;
+}
+.colum-2 input[type="submit"]:hover{
+    color: #fff;
+    background-color: #3d2514;
+    
+}
+.book-table-burger{
+    position: absolute;
+    top: 66px;
+    left: -19px;
+}
+.book-table-burger img{
+    width: 205px;
+    height: 205px;
+}
+.book-table-bottle{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.book-table-bottle img{
+    width: 60px;
+    height: 220px;
+}
+.book-table-pleat{
+    position: absolute;
+    bottom: 0;
+    right: -110px;
+}
+.book-table-pleat img{
+    height: 300px;
+    width: 300px;
+}
+form{
+    display: flex;
+}
+.footer{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.footer-row{
+    width: 100%;
+    background-image: url(../Image/S-3/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-contain{
+    width: 100%;
+    display: flex;
+    padding-top: 75px;
+}
+.logo-details{
+    width: 46%;
+    padding: 0 40px;
+}
+.logo-details .logo{
+    width: 420px;
+    height: auto;
+}
+.logo-details .logo img{
+    width: 100%;
+    object-fit: contain;
+}
+.footer-p{
+    max-width: 520px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.footer-p p{
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.location-address{
+    width: 40%;
+    margin-top: 160px;
+    margin-right: 110px;
+}
+.address {
+    display: flex;
+    justify-content: end;
+
+}
+.address-ico{
+    margin-right: 20px;
+}
+
+.address a{
+    font-size: 21px;
+    line-height: 38px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+
+    padding-bottom: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+.email{
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+    margin-right: 68px;
+}
+.email-icon{
+    margin-right: 20px;
+
+}
+.email a{
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+.footer a:hover {
+    color: #bf2222;
+}
+.social-company{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+.company-name{
+    width: 50%;
+    padding: 25px 40px;
+}
+.company-name p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.social{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.social i{
+    color: #000000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);   
+}
+.instagram ,.facebook ,.twitter,.whatsapp{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 100%;
+    
+}
+.instagram:hover ,.facebook:hover  ,.twitter:hover ,.whatsapp:hover {
+    background-color: #bf2222;
+    
+}
+.instagram:hover i,.facebook:hover i ,.twitter:hover i,.whatsapp:hover i{
+    color: #fff;
+}
+
+@media screen and (max-width: 1157px){
+.combo-img{
+    width: 630px;
+}
+.hero-titel h1{
+    font-size: 100px;
+}
+.order-button{
+    left: 55px;
+}
+.upcoming-events-img{
+    background-position: right;
+}
+.upcoming-events-containt .sub-title h2{
+    font-size: 40px;
+}
+.colum-2 input[type="submit"]{
+    width: 358.19px;
+}
+.footer-p p{
+    font-size: 15px;
+}
+.book-table-bottle{
+    left: 100%;
+}
+}
+
+@media screen and (max-width: 1024px){
+.combo-img{
+    width: 580px;
+    height: 500px;
+}
+.hero-titel h1{
+    font-size: 100px;
+}
+.hero-titel h1 {
+    font-size: 90px;
+}
+.combo-img{
+    width: 550px;
+}
+.hero-heding p{
+    font-size: 20px;
+}
+.hero-sub-titel h2{
+    font-size: 50px;
+}
+.price{
+    width: 160px;
+    height: 160px;
+}
+.in-price{
+    height: 130px;
+    width: 130px;
+}
+.price h5{
+    font-size: 60px;
+    line-height: 24px;
+    margin-top: 35px;
+}
+.price h5 span {
+    font-size: 25px;
+}
+.price h6{
+    font-size: 29px;
+    margin-left: 13px;
+}
+.choose-title a{
+    font-size: 23px;
+}
+.choose-enjoy-row .sub-title h2{
+    font-size: 45px;
+}
+.choose-enjoy-contain p{
+    font-size: 15px;
+}
+.order-title h3{
+    font-size: 30px;
+}
+.order-contain p{
+    font-size: 14px;
+}
+.hero-heding{
+    width: 350px;
+}
+.order-button {
+    left: 55px;
+}
+.order-button a{
+    font-size: 15px;
+    padding: 9px 25px;
+}
+.upcoming-events-containt .sub-title h2{
+    font-size: 35px;
+}
+.events-p p{
+    font-size: 15.8px;
+}
+.events-p{
+    margin-top: 35px;
+}
+.upcoming-events-img{
+    background-position: right bottom;
+    width: 620px;
+    height: auto;
+}
+.book-table-row .title h3{
+    font-size: 25px;
+}
+.book-table-row .sub-title h2{
+    font-size: 42px;
+}
+.book-table-burger img {
+    width: 190px;
+    height: 190px;
+}
+.book-table-bottle{
+    left: 35px;
+}
+.book-table .wrapper {
+    max-width: 690px;
+    margin: 0 auto;
+}
+.colum-2 input[type="submit"]{
+    width: 341.19px;
+}
+.colum-1 input, .colum-2 input{
+    font-size: 19px;
+}
+.book-table-pleat img {
+    height: 220px;
+    width: 220px;
+}
+.book-table-pleat{
+    right: -72px;
+}
+}
+@media screen and (max-width: 1018px){
+.colum-2 input[type="submit"] {
+    width: 299.19px;
+}
+}
+@media screen and (min-width: 849px){
+    .menu{
+        display: inline !important;
+    }
+}
+@media screen and (max-width: 848px){
+.menu{
+    display: none;
+    padding-right: 50px;
+    padding-top: 20px;
+    right: 15px;
+    top: 95px;
+    position: absolute;
+    z-index: 999;
+}
+.menu ul li{
+    display: block;
+    margin-top: 20px;
+}
+.menu-icon{
+    display: inline-block;
+    text-align: end;
+    position: absolute;
+    width: 40%;
+    right: 50px;
+}
+.heding a{
+    font-size: 14px;
+}
+.menu ul li a{
+    font-size: 18px;
+}
+.heding img{
+    width: 15px;
+}
+.combo-img {
+    width: 470px;
+    height: 450px;
+}
+.hero-conteain{
+    padding-top: 90px;
+}
+.price {
+    width: 140px;
+    height: 140px;
+}
+.in-price{
+    width: 120px;
+    height: 120px;
+}
+.hero-heding {
+    width: 310px;
+}
+.hero-heding p {
+    font-size: 17px;
+}
+.hero-titel h1 {
+    font-size: 75px;
+}
+.hero-sub-titel h2 {
+    font-size: 45px;
+}
+.combo-img {
+    width: 460px;
+    height: 440px;
+}
+.choose-enjoy-row .sub-title h2 {
+    font-size: 42px;
+}
+.choose-enjoy-contain p {
+    font-size: 13px;
+}
+.order-blog{
+    margin-top: 40px;
+}
+.order-title h3{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.order-contain p {
+    font-size: 11px;
+}
+.order-button a {
+    font-size: 13px;
+    padding: 8px 20px;
+}
+.order-button {
+    left: 41px;
+}
+.upcoming-events-containt .title h4{
+    font-size: 27px;
+}
+.upcoming-events-containt .sub-title h2 {
+    font-size: 30px;
+}
+.events-p p {
+    font-size: 13.8px;
+}
+.book-table-burger img {
+    width: 180px;
+    height: 180px;
+}
+.book-table-pleat img {
+    height: 200px;
+    width: 200px;
+}
+.book-table .wrapper{
+    max-width: 660px;
+}
+.colum-2 input[type="submit"] {
+    width: 286.19px;
+}
+.logo-details .logo {
+    width: 300px;
+    height: auto;
+}
+.footer-p p {
+    font-size: 10px;
+}
+.address-ico img,.email-icon img {
+    width: 20px;
+}
+.address a{
+    font-size: 16px;
+    line-height: 25px;
+}
+.email a{
+    font-size: 14px;
+    line-height: 17px;
+}
+}
+
+@media screen and (max-width: 768px){
+
+.combo-img {
+    width: 440px;
+    height: 450px;
+}
+.hero-heding p {
+    font-size: 17px;
+}
+.hero-titel h1 {
+    font-size: 75px;
+}
+.price h5 span {
+    font-size: 23px;
+}
+.price h6{
+    font-size: 25px;
+}
+.price {
+    width: 140px;
+    height: 140px;
+}
+.in-price {
+    height: 120px;
+    width: 120px;
+}
+.most-popular{
+    padding-bottom: 280px;
+}
+.morefun .title h2{
+    font-size: 33px;
+}
+.sub-title p{
+    font-size: 22px;
+}
+.sub-title p{
+    font-size: 33px;
+}
+.morefun{
+    padding-bottom: 29px;
+}
+.fresh-chili{
+    padding-bottom: 60px;
+}
+.choose-title a {
+    font-size: 21px;
+    font-weight: 500;
+}
+.choose-enjoy-row .sub-title h2{
+    font-size: 40px;
+}
+.choose-enjoy-contain p {
+    font-size: 11px;
+}
+.order-title h3 {
+    font-size: 27px;
+}
+.hero-heding{
+    width: 300px;
+}
+.order-blog{
+    margin-top: 40px;
+}
+.order-title h3{
+    margin-top: 10px;
+    font-size: 23px;
+}
+.order-contain p{
+    font-size:10px;
+}
+.order-contain{
+    margin-top: 17px;
+}
+.order-button a {
+    font-size: 12px;
+    padding: 7px 22px;
+}
+.order-button {
+    left: 33px;
+}
+.upcoming-events-containt .title h4{
+    font-size: 20px;
+}
+.upcoming-events-containt .sub-title h2{
+    font-size: 24px;
+}
+.events-p{
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+.events-p p{
+    font-size: 11.8px;
+}
+.book-table-row .title h3{
+    font-size: 22px;
+}
+.book-table-row .sub-title h2{
+    font-size: 32px;
+}
+.resevation-form{
+    margin-top: 70px;
+}
+.book-table .wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.colum-2 input[type="submit"]{
+    width: 254.19px;
+}
+.book-table-burger img{
+    width: 150px;
+    height: 150px;
+}
+.book-table-pleat img {
+    height: 190px;
+    width: 190px;
+}
+.book-table{
+    padding-bottom: 120px;
+}
+.logo-details .logo{
+    width: 220px;
+}
+.footer-p p{
+    font-size: 8px;
+}
+.social-company{
+    padding-top: 100px;
+}
+.address-ico img{
+    width: 13px;
+    padding-top: 10px;
+}
+.address a{
+    font-size: 14px;
+}
+.email a{
+    font-size: 14px;
+}
+.email-icon img{
+    width: 13px;
+}
+.location-address{
+    margin-top: 120px;
+}
+.email{
+    margin-top: 0px;
+    margin-right: 44px;
+}
+.company-name p{
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 727px){
+.hero-row{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+}
+.hero-conteain{
+    width: 100%;
+    padding-top: 70px;
+}
+.hero-heding {
+    max-width: 340px;
+    margin-left: 125px;
+}
+.menu ul {
+    margin-top: 20px;
+}
+.heding img {
+    width: 21px;
+}
+.menu ul li a {
+    font-size: 16px;
+}
+.menu ul li{
+    margin-top: 17px;
+}
+.hero-heding p {
+    font-size: 17px;
+}
+.hero-titel h1 {
+    font-size: 95px;
+}
+.hero-sub-titel h2 {
+    font-size: 55px;
+    margin-left: -240px;
+}
+
+.hero-img{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.combo-img {
+    width: 420px;
+    height: 420px;
+}
+.price {
+    width: 120px;
+    height: 120px;
+}
+.in-price {
+    height: 100px;
+    width: 100px;
+}
+.price h5 {
+    font-size: 50px;
+    margin-top: 25px;
+}
+.popular-row{
+    flex-wrap: wrap;
+}
+.most-popular{
+    width: 100%;
+}
+.morefun-chili{
+    width: 100%;
+    margin-top: 20px;
+}
+.sub-title p{
+    font-size: 23px;
+}
+.morefun .title h2{
+    line-height: 30px;
+}
+.fresh-chili{
+    margin-top:20px;
+}
+.order-blog{
+    flex-wrap: wrap;
+}
+.order-blog-box{
+    max-width: 100%;
+    margin: 30px auto;
+}
+.order-button {
+    left: 110px;
+}
+.upcoming-events-row{
+    flex-wrap: wrap;
+}
+.upcoming-events-containt{
+    max-width: 100%;
+}
+.upcoming-events-img{
+    width: 640px;
+    height: 300px;
+    background-position: right;
+}
+.resevation-form{
+    flex-wrap: wrap;
+}
+.colum-1, .colum-2{
+    max-width: 100%;
+}
+.colum-2 input[type="submit"]{
+    width: 460.19px;
+}
+}
+@media screen and (max-width: 425px){
+.menu{
+    padding-right: 10px;
+}
+.menu-icon{
+    right: 0;
+}
+.hero-img{
+    margin-top: 50px;
+    margin-left: 0;
+}
+.hero-heding {
+        width: 230px;
+        padding: 0px 0px;
+        margin-left: 55px;
+        border: 2px dashed #3d2514;
+    }
+.hero-heding p{
+    font-size: 14px;
+}
+.hero-sub-titel h2 {
+    font-size: 35px;
+    margin-left: -160px;
+}
+.hero-titel h1 {
+    font-size: 60px;
+}
+.hero-row{
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+.price {
+    width: 90px;
+    height: 90px;
+}
+.in-price {
+    height: 70px;
+    width: 70px;
+}
+.price h5 {
+    font-size: 28px;
+    line-height: 13px;
+    margin-top: 18px;
+}
+.price h5 span {
+    font-size: 16px;
+}
+.price h6 {
+    font-size: 16px;
+    margin-left: 7px;
+    letter-spacing: 5px;
+}
+.combo-img {
+    width: 270px;
+    height: 270px;
+}
+.hero-img{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.hero-row{
+    margin-top: 0px;
+}
+.popular-row{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.sub-title p {
+    font-size: 20px;
+}
+.most-popular .title h2{
+    font-size: 30px;
+}
+.most-popular {
+    padding-bottom: 244px;
+    width: 100%;
+}
+.morefun-chili{
+    width: 100%;
+    margin-top: 20px;
+}
+.morefun{
+    margin-bottom: 20px;
+}
+.morefun .title h2{
+    font-size: 35px;
+    line-height: 30px;
+}
+.fresh-chili h2{
+    font-size: 32px;
+    line-height: 38px;
+}
+.choose-title a{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+.choose-enjoy-row{
+    margin-top: 60px;
+}
+.choose-enjoy-row .sub-title h2{
+    font-size: 25px;
+}
+.choose-enjoy-row .sub-title{
+    margin-top: 35px;
+}
+.choose-enjoy-contain{
+    margin-top: 25px;
+}
+.choose-enjoy-contain p{
+    font-size: 9px;
+    line-height: 18px;
+}
+.order-blog{
+    flex-wrap: wrap;
+}
+.order-blog-box{
+    margin-top: 40px;
+    max-width: 100%;
+}
+.order-title h3{
+    font-size: 25px;
+}
+
+.order-button{
+    bottom: -40px;
+    left: 111px;
+}
+.order-contain p{
+    font-size: 14px;
+}
+.order-contain{
+    width: 300px;
+}
+.upcoming-events-row{
+    flex-wrap: wrap;
+}
+.upcoming-events-img{
+    width: 100%;
+    height: 300px;
+    background-position: right;
+}
+.book-table-row .title h3 {
+    font-size: 17px;
+}
+.book-table-row .sub-title h2 {
+    font-size: 20px;
+}
+.book-table .wrapper{
+    max-width: 300px;
+}
+.resevation-form{
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.colum-1{
+    max-width: 100%;
+}
+.colum-2{
+    max-width: 100%;
+}
+.colum-2 input[type="submit"] {
+    width: 260.19px;
+}
+.book-table-burger img {
+    width: 100px;
+    height: 100px;
+}
+.book-table-bottle img {
+    width: 40px;
+    height: 190px;
+}
+.book-table-bottle {
+    left: 7px;
+    top: 428px;
+}
+.book-table-pleat img {
+    height: 130px;
+    width: 130px;
+}
+.logo-details{
+    width: 100%;
+    padding: 0 20px;
+}
+.footer-contain{
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.logo-details .logo{
+    width: 190px;
+}
+.footer-p{
+    max-width: 100%;
+    margin-top: 35px;
+}
+.footer-p p{
+    font-size: 10px;
+}
+.location-address{
+    margin-top: 70px;
+    padding: 0 20px;
+    width: 100%;
+}
+.address-ico,.email-icon{
+    margin-right: 10px;
+}
+.email{
+    justify-content: start;
+}
+.address{
+    justify-content: start;
+}
+.address a,.email a {
+    font-size: 14px;
+}
+.social-company {
+    padding-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.company-name {
+    width: 100%;
+    padding: 0 20px;
+}
+.company-name p{
+    font-size: 14px;
+}
+.social{
+    width: 100%;
+    justify-content: start;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+.footer{
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 375px){
+.heding {
+    margin-top: 10px;
+}
+.heding img {
+    width: 19px;
+}
+.heding a {
+    font-size: 12px;
+}
+.menu ul li{
+    margin-top: 15px;
+}
+.menu ul li a {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.choose-enjoy-contain p{
+    font-size: 8px;
+}
+.order-blog{
+    margin-top: 30px;
+}
+.order-button{
+    left: 95px;
+}
+.address a, .email a {
+    font-size: 13px;
+}
+.footer-p p{
+    font-size: 9px;
+}
+}
